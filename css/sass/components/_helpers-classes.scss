@@ -7,9 +7,13 @@
 .text-two-color {
   color: $two-color;
 }
+.bg-two-color {
+  background-color: $two-color;
+}
 .p-color-50 {
   color: $p-color-50;
 }
+
 .py-60 {
   padding-top: 60px;
   padding-bottom: 60px;

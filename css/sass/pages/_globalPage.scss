@@ -1,5 +1,5 @@
 body {
-  font-family: "droidArabicKufi";
+  font-family: "droidArabicKufi",sans-serif;
   background-color: white;
   color: black;
   font-size: 14px;
@@ -31,4 +31,15 @@ input[type=number]::-webkit-inner-spin-button {
 /*remove arrow input number Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+.whatsapp-btn {
+  position: fixed;
+  z-index: 1000;
+  bottom: 1rem;
+  left: 1rem;
+  width: 50px;
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
