@@ -51,3 +51,16 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   splideOne.mount();
 });
+// splide profile
+if (document.querySelector("#profile-slide")) {
+  var slides = document.querySelectorAll("#profile-slide");
+  slides.forEach(slide => {
+    document.addEventListener("DOMContentLoaded", function () {
+      var splideOne = new Splide(slide, {
+          type: "loop",
+    
+      });
+      splideOne.mount();
+    });
+  })
+}
