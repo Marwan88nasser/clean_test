@@ -1,0 +1,66 @@
+.box-nav {
+  z-index: 1000;
+  position: absolute;
+  top:0 ;
+  left: 0;
+  width: 100%;
+  font-size: 13px;
+  .top-nav {
+    padding: 1rem 0 ;
+    .item{
+      color: white;
+      font-size: 13px;
+      .icon {
+        font-size: 16px;
+      }
+    }
+    .dropdown {
+      .dropdown-toggle {
+        background-color: transparent !important;
+        outline: none;
+        color: white;
+        border: none;
+        &::after {
+          content: none !important;
+        }
+        .icon {
+          font-size: 18px;
+          
+        }
+      }
+    }
+  }
+  .bottom-nav {
+    border-radius: 7px;
+    padding: 1rem;
+    background-color: rgb(255 255 255 / 80%);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    .logo {
+      width: 100px;
+    }
+    .nav-link {
+      color: $two-color;
+      font-weight: bold;
+    }
+    .dropdown {
+      .dropdown-toggle {
+        background-color: transparent !important;
+        outline: none;
+        border: none;
+        &::after {
+          content: none !important;
+        }
+        .arrow {
+          font-size: 11px;
+          color: $main-color;
+        }
+      }
+    }
+  }
+.main-btn {
+  font-size: 13px;
+  padding: 0.5rem 1rem;
+}
+}

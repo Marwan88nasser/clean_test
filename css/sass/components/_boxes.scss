@@ -1,0 +1,181 @@
+//  boxes-serv
+.boxes-serv {
+    .box {
+        padding: 1.5rem;
+        border-radius: 6px;
+        height: 100%;
+        filter: drop-shadow(0px 3px 3.5px #d9d9dc);
+        background-color: #ffffff;
+        @include minWidth(xl) {
+            width: 93%;
+        }
+        .icon {
+            height: 65px;
+            width: auto;
+            margin-bottom: 0.5rem;
+        }
+        .title {
+            font-size: 20px;
+            color: $two-color;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        .p {
+            font-size: 15px;
+            line-height: 23px;
+            color: $p-color-50;
+        }
+    }
+}
+
+.boxes-info-row {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    .box {
+        display: flex;
+        gap: 2rem;
+        color: white;
+        .icon {
+            width: 50px;
+            height: 50px;
+        }
+        .text {
+            .title {
+                font-size: 17px;
+                line-height: 23px;
+                margin-bottom: 0.2rem;
+                font-weight: bold;
+            }
+            .p {
+                font-size: 13px;
+                line-height: 20px;
+            }
+        }
+    }
+}
+
+.boxes-info {
+    .box {
+        min-height: 268px;
+        border-radius: 6px;
+        background-color: $box-color-50;
+        padding: 1.5rem;
+        height: 100%;
+        .icon {
+            height: 60px;
+            width: auto;
+            margin-bottom: 0.45rem;
+        }
+        .title {
+            font-size: 22px;
+            margin-bottom: 0.45rem;
+            color: $two-color;
+            font-weight: bold;
+        }
+        .p {
+            color: $p-color-50;
+        }
+    }
+}
+
+.boxes-countries {
+    .splide__arrow {
+        display: none !important;
+    }
+    .splide__slide {
+        padding: 5px 20px;
+    }
+    .box {
+        filter: drop-shadow(0px 3px 3.5px rgba(0, 0, 0, 0.233));
+        -webkit-filter: drop-shadow(0px 3px 3.5px rgba(0, 0, 0, 0.233));
+        background-color: white;
+        margin-bottom: 6rem;
+
+        padding: 4rem 1.5rem;
+        .img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+        .footer-box {
+            filter: drop-shadow(0px 3px 3.5px #d9d9dc);
+            background-color: #ffffff;
+            padding: 1rem;
+            transform: translateY(112px);
+            -webkit-transform: translateY(112px);
+            -moz-transform: translateY(112px);
+            -ms-transform: translateY(112px);
+            -o-transform: translateY(112px);
+            .title {
+                font-weight: bold;
+                font-size: 20px;
+                margin-bottom: 0.3rem;
+                color: $two-color;
+            }
+            .link {
+                color: $p-color-50;
+                text-decoration: none;
+            }
+        }
+    }
+    .splide__pagination__page {
+        height: 12px !important;
+        background: #d9d9dc;
+        width: 12px !important;
+    }
+    .splide__pagination__page.is-active {
+        opacity: 1 !important;
+        transform: scale(1) !important;
+        background: $two-color !important;
+        -webkit-transform: scale(1) !important;
+        -moz-transform: scale(1) !important;
+        -ms-transform: scale(1) !important;
+        -o-transform: scale(1) !important;
+    }
+}
+
+.boxes-opinions {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    .box {
+        border-radius: 5px;
+        filter: drop-shadow(0px 6px 7px #e3e8ec);
+        background-color: #ffffff;
+        -webkit-filter: drop-shadow(0px 6px 7px #e3e8ec);
+        padding: 1.5rem;
+        display: flex;
+        align-items: flex-start;
+        gap: 0.7rem;
+        .user {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+        .text {
+         .title {
+            font-size: 16px;
+            margin-bottom: 0.1rem;
+color: #333333;
+font-weight: bold;
+
+         }
+         .p {
+            font-size: 13px;
+line-height: 20px;
+color: $p-color-50;
+         }
+        }
+    }
+}

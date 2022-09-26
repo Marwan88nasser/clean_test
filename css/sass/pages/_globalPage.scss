@@ -1,0 +1,34 @@
+body {
+  font-family: "droidArabicKufi";
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  scroll-behavior: smooth;
+}
+// All Rest
+* {
+  @include all-reset;
+}
+// a Reset
+a {
+  @include a-reset;
+}
+// reset btn
+button {
+  border: none;
+  outline: none;
+}
+// Reset Input
+input {
+  direction: unset !important;
+}
+/*remove arrow input number Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/*remove arrow input number Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

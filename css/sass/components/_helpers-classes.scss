@@ -1,0 +1,24 @@
+.text-main-color {
+  color: $main-color;
+}
+.bg-main-color {
+  background-color: $main-color;
+}
+.text-two-color {
+  color: $two-color;
+}
+.p-color-50 {
+  color: $p-color-50;
+}
+.py-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.row-gap-24 {
+  row-gap: 24px;
+}
+.w-xl-50 {
+  @include minWidth(xl) {
+    width: 50%;
+  }
+}

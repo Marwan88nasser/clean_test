@@ -1,0 +1,20 @@
+.footer {
+ background-color: $bg-section-50;
+ .top-footer {
+  padding-bottom: 3rem;
+  border-bottom:1px solid $p-color-50 ;
+  .contact {
+   .item {
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    gap: 5px;
+    color: $p-color-50;
+    .icon {
+     color: $main-color;
+     width: 27px;
+    }
+   }
+  }
+ }
+}
